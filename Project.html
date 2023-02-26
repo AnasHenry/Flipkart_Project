@@ -9,6 +9,11 @@
       color: white;
     }
 
+    .seno {
+      height: 20px;
+      width: 20px;
+    }
+
     .cards {
       transition: 0.2s ease;
       cursor: pointer;
@@ -18,6 +23,38 @@
     .cards:hover {
       transform: scale(1.1);
     }
+
+    .dropbtn {
+      background-color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
   </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,19 +68,80 @@
 
 <body>
   <div class="container-sm">
-    <nav class="navbar navbar-expand-sm bg-primary justify-content-center fixed-top">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <p id="sn"><b><i>Flipkart</i></b></p>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand d-flex justify-content-center fixed-top bg-white p-1">
+      <div class="p-2">
+        <img
+          src="https://bl-i.thgim.com/public/migration_catalog/article18208673.ece/alternates/FREE_1200/bl29_IT_New%20Flipkart%20Logo.jpg"
+          width="230px" height="75px">
+      </div>
+      <div class="p-2">
+        <form>
+          <input type="search" placeholder="Search for products, brands and more" class="form-control" size="50">
+        </form>
+      </div>
+      <div class="p-2">
+        <a href="loginpage.html" target="_blank"><button type="button"
+            class="btn text-white btn-primary">Login</button></a>
+      </div>
+      <div class="p-2 text-center text-white">
+        <a href="#"><button type="button" class="btn text-primary fs-5"><b>Become a seller</b></button></a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn text-primary"><b>More </b></button>
+        <div class="dropdown-content">
+          <a href="#"><img src="Images/bell.png" class="seno"> Notifications</a>
+          <a href="#"><img src="Images/quest.png" class="seno"> FAQ</a>
+          <a href="#"><img src="Images/stocks.png" class="seno"> Advertise</a>
+          <a href="#"><img src="Images/download.png" class="seno"> Download</a>
+        </div>
+      </div>
+      <div class="p-2 text-center">
+        <a href="#"><img src="Images/cart.png" height="70px"></a>
+      </div>
     </nav>
+    <br><br><br><br>
+    <div class="d-flex justify-content-around">
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Top Offers</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Groceries</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Mobiles</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Fashion</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Electronics</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Furnitures</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Appliances</p>
+      </div>
+      <div>
+        <a href="#"><img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" width="63px"
+          height="63px"></a><br>
+        <p>Tickets</p>
+      </div>
+    </div>
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
