@@ -1,0 +1,84 @@
+#sn {
+    font-size: 26px;
+    font-family: Comic Sans MS;
+    color: white;
+  }
+
+  .seno {
+    height: 20px;
+    width: 20px;
+  }
+
+  .cards {
+    transition: 0.2s ease;
+    cursor: pointer;
+    width: 200px;
+  }
+
+  .cards:hover {
+    transform: scale(1.1);
+  }
+
+  .dropbtn {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  footer{
+    background-color: #172337;
+    color: white;
+    padding-top: 3%;
+}
+
+.Footer h6{
+    color: #878787;
+    font-size: 10px;
+}
+
+.Footer > div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.Footer a{
+    color: white;
+    line-height: 1.3rem;
+    font-size:15px;
+}
+
+.Footer p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.2rem;
+}
+
+footer span{
+    font-size: 15px;
+    cursor: pointer;
+}
