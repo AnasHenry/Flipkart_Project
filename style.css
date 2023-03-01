@@ -13,18 +13,18 @@ body{
     background:white;
     overflow: hidden;
 }
-.inline-text{
+.text{
     color:white;
     position: absolute;
     top: 32px;
     left: 55px;
   
 }
-.inline-text h1{
+.text h1{
 font-size:25px;
 margin-bottom: 20px;
 }
-.inline-text p{
+.text p{
     color:rgb(228, 228, 228);
     opacity:0.9;
     font-size:13px;
@@ -49,7 +49,6 @@ margin-bottom: 20px;
     height: 40px; 
 }
 .box2  .user-data input {
-    /* font-size:18px; */
     color:black;
     border:none;
     border-bottom:1px solid rgb(228, 228, 228);
@@ -101,30 +100,7 @@ margin-bottom: 20px;
     margin-left:148px;
     color:rgb(173, 173, 173);
 }
-.box2  .button input[type=submit]{
-    background:#fb641b;
-    border-radius: 2px;
-    color:white;
-    font-weight:500;
-    font-size:15px;
-    outline:none;
-    transition:0.5s;
-    margin-top:none;
-}
-.box2  .button input[type=reset]{
-    box-shadow:2px 1px 5px 0 rgba(0,0,0,0.2);
-    border-radius: 2px;
-    color:#2874f0;
-    font-weight:600;
-    outline:none;
-    transition: 0.5s;
-}
-.box2  .button input[type=submit]:hover{
-    box-shadow:2px 3px 5px 0 rgba(0,0,0,0.2);
-}
-.box2  .button input[type=reset]:hover{
-    box-shadow:2px 2px 10px 0 rgba(0,0,0,0.2)
-}
+
 .user-id .footer a{
     position: absolute;
     top: 115px;
